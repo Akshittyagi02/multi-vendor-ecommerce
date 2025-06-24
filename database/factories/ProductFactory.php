@@ -40,6 +40,10 @@ class ProductFactory extends Factory
             'is_approved' => $this->faker->boolean(70), // 70% chance of being approved
             'created_at' => $this->faker->dateTimeBetween('-1 year', 'now'),
             'updated_at' => $this->faker->dateTimeBetween('-1 year', 'now'),
+            'updated_at' => $this->faker->dateTimeBetween('-1 year', 'now'),
+
+
+
         ];
     }
 }
