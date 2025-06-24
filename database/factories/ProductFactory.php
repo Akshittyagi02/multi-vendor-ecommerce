@@ -41,9 +41,6 @@ class ProductFactory extends Factory
             'created_at' => $this->faker->dateTimeBetween('-1 year', 'now'),
             'updated_at' => $this->faker->dateTimeBetween('-1 year', 'now'),
             'updated_at' => $this->faker->dateTimeBetween('-1 year', 'now'),
-
-
-
         ];
     }
 }
